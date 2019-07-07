@@ -4,10 +4,12 @@
     border-radius: 0px;
     font-size: 14px;
     line-height: 1;
-    margin: 10px auto 0;
+    margin: 15px auto 0;
     border: 2px solid #000;
     color: #000;
     background: #fff;
+    padding: 7px;
+    text-align: center;
 ">分享</div>
 <div class="-mob-share-ui" style="display: none">
     <ul class="-mob-share-list">
