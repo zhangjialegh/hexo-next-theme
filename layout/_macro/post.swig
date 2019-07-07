@@ -344,12 +344,18 @@
         {% if theme.tag_icon %}
           {% set tag_indicate = '<i class="fa fa-tag"></i>' %}
         {% else %}
-          {% set tag_indicate = '#' %}
+          {% set tag_indicate = '<i class="fa fa-tag"></i>' %}
         {% endif %}
         <div class="post-tags">
           {% for tag in post.tags %}
             <a href="{{ url_for(tag.path) }}" rel="tag">{{ tag_indicate }} {{ tag.name }}</a>
           {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if not is_index and theme.sharesdk %}
+        <div>
+          {% include 'sharesdk.swig' %}
         </div>
       {% endif %}
 
