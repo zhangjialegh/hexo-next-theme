@@ -652,7 +652,7 @@ valine:
 gitalk:
   enable: true
   github_id: zhangjialegh
-  repo: https://github.com/zhangjialegh/blog-comments.git
+  repo: blog-comments
   client_id: ac98aa73e7ed1bd895b4
   client_secret: f1d8b771093705b6be233834ae27965a0d49eca2
   admin_user: zhangjialegh
